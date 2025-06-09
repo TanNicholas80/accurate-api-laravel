@@ -30,7 +30,7 @@ return [
 
     'accurate' => [
         'auth_token' => env('AUTH_ACCURATE'),
-        'session_token' => env('SESSION_ACCURATE')
+        'signature_secret' => env('SIGNATURE_SECRET')
     ],
 
     'slack' => [
